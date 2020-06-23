@@ -35,6 +35,7 @@ class WhastsappBot:
             chat_foto.click()
 
             time.sleep(3)
+            #Envia a Legenda da foto.
             chat_foto.send_keys(self.mensagem)
             time.sleep(3)
 
